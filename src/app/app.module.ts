@@ -5,14 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 // Layouts
-import { FilledComponent } from './pages/_layouts/filled/filled.component';
-import { EmptyComponent } from './pages/_layouts/empty/empty.component';
+import { FilledComponent } from './views/_layouts/filled/filled.component';
+import { EmptyComponent } from './views/_layouts/empty/empty.component';
 
 // Shared
-import { NAV_DROPDOWN_DIRECTIVES } from './pages/_shared/nav-dropdown.directive';
-import { SIDEBAR_TOGGLE_DIRECTIVES } from './pages/_shared/sidebar.directive';
-import { AsideToggleDirective } from './pages/_shared/aside.directive';
-import { BreadcrumbsComponent } from './pages/_shared/breadcrumb.component';
+import { NAV_DROPDOWN_DIRECTIVES } from './views/_shared/nav-dropdown.directive';
+import { SIDEBAR_TOGGLE_DIRECTIVES } from './views/_shared/sidebar.directive';
+import { AsideToggleDirective } from './views/_shared/aside.directive';
+import { BreadcrumbsComponent } from './views/_shared/breadcrumb.component';
 
 // Ngx-Bootstrap
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
