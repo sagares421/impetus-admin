@@ -1,1 +1,19 @@
 // Here you can add other styles
+.logo{
+    display: inline-block;
+    width: 155px;
+    height: 55px;
+    padding: 0.5rem 1rem;
+    margin-right: 0;
+    color:#000000;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70px auto;
+    border-bottom: 1px solid #cfd8dc;
+}
+.logo span{
+    color: red;
+}

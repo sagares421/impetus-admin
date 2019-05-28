@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { AuthGuard } from './_guards';
+
 // Layouts
 import { FilledComponent } from './views/_layouts/filled/filled.component';
 import { EmptyComponent } from './views/_layouts/empty/empty.component';
