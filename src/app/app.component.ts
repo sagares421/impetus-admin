@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'impetus-admin';
+  spin:boolean = true;
+
+  constructor(){
+
+    setTimeout(()=>{
+      this.spin = false;
+    },1500);
+    
+  }
+
 }
