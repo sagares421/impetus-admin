@@ -7,6 +7,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 11001;
 }
+
 .lds-dual-ring {
     display: block;
     position:absolute;
@@ -16,6 +17,7 @@
     width: 64px;
     height: 64px;
   }
+
   .lds-dual-ring:after {
     content: " ";
     display: block;
@@ -26,6 +28,7 @@
     border-color: #fff transparent #fff transparent;
     animation: lds-dual-ring 1.2s linear infinite;
   }
+
   @keyframes lds-dual-ring {
     0% {
       transform: rotate(0deg);
@@ -34,3 +37,37 @@
       transform: rotate(360deg);
     }
   }
+
+  .sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 100%;
+    margin-top: 55px;
+  }
+.aside-menu{
+  position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999;
+    height: 100%;
+    margin-top: 55px;
+}
+
+.app-header.navbar{
+  position: fixed !important;
+  z-index: 1020;
+  width: 100%;
+}
+
+.app-body .main{
+  padding-top: 55px;
+}
+
+@media screen and (max-width: 768px) {
+  .app-body .main{
+    padding-top: 0px;
+  }
+}
+  
